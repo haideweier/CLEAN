@@ -14,8 +14,8 @@ output_file = fullfile(output_dir, 'cleaned_data.mat');
 
 % Sampling frequency and CLEAN parameters from the original analysis.
 Fs = 1 / 0.000156;
-late_window_ms = 55;
-early_window_ms = 45;
+late_window_ms = 50;
+early_window_ms = 50;
 similarity_threshold = 0.75;
 neighbor_search_range = 2;
 attenuation_factor = 10;
